@@ -12,3 +12,6 @@ class IndexView(generic.TemplateView):
 class InquiryView(generic.FormView):
     template_name = "inquiry.html"
     form_class = InquiryForm
+
+class TeamView(generic.TemplateView):
+    template_name = "team.html"
