@@ -21,3 +21,6 @@ class ServicesView(generic.TemplateView):
 
 class PortfolioView(generic.TemplateView):
     template_name = "portfolio.html"
+
+class AboutView(generic.TemplateView):
+    template_name = "about.html"
