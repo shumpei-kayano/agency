@@ -18,3 +18,6 @@ class TeamView(generic.TemplateView):
 
 class ServicesView(generic.TemplateView):
     template_name = "services.html"
+
+class PortfolioView(generic.TemplateView):
+    template_name = "portfolio.html"
