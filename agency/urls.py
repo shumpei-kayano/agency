@@ -8,4 +8,5 @@ urlpatterns = [
     # 問い合わせページinquiry.htmlへのパス
     path('inquiry',views.InquiryView.as_view(),name="inquiry"),
     path('team',views.TeamView.as_view(),name="team"),
+    path('services',views.ServicesView.as_view(),name="services"),
 ]

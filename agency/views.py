@@ -15,3 +15,6 @@ class InquiryView(generic.FormView):
 
 class TeamView(generic.TemplateView):
     template_name = "team.html"
+
+class ServicesView(generic.TemplateView):
+    template_name = "services.html"
